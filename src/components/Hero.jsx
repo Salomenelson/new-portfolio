@@ -1,7 +1,7 @@
 
 function Hero(){
     return(
-        <section id="Hero" className="bg-[#48426d] w-full min-h-[50vh] text-amber-50 text-lg bg-[linear-gradient(rgba(0,0,0,0.9)),url('/portfolio-img.jpg')] bg-cover bg-no-repeat">
+        <section id="Hero" className="bg-[#312c51] w-full min-h-[50vh] text-amber-50 text-lg bg-[linear-gradient(rgba(0,0,0,0.9)),url('/portfolio-img.jpg')] bg-cover bg-no-repeat">
             <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-4 flex justify-center items-center text-center">
                 <div className="pb-3">
                     <p className="uppercase tracking-[6px] text-[1.5rem]">Hello, i'm</p>

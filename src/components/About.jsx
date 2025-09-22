@@ -2,8 +2,8 @@ import { Aboutcard } from "./Aboutcard"
 
 function About(){
     return(
-        <section id="About" className="bg-[#48426d] w-full text-white">
-            <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-30">
+        <section id="About" className="bg-[#312c51] w-full text-white">
+            <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-25">
 
                 {/* flex container */}
                 <div className="md:flex justify-between items-center py-3">
