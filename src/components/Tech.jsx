@@ -1,5 +1,5 @@
 
-function Techstack(){
+function Tech(){
     return(
         <section id="Techstack" className="bg-[#48426d] text-white">
             <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-30">
@@ -18,4 +18,4 @@ function Techstack(){
     )
 }
  
-export default Techstack
+export default Tech
