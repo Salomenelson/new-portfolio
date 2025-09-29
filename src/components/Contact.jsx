@@ -13,7 +13,7 @@ function Contact(){
                     <textarea className="block border-[#312c51] border-1 w-full h-[250px] p-3 rounded-[7px]" name="textarea" id="textarea" placeholder="Let's make something awesome together"></textarea>
 
                     <div className="mt-10">
-                        <Button className="text-[1.5rem]" buttonTitle="Send Message" background="#8827c0" icon="/submit icon.png"/>
+                        <Button className="text-[1.5rem]" buttonTitle={"Send Message"} background={"#8827c0"} icon={"/submit icon.png"}/>
                     </div>
                 </form>
             </div>
