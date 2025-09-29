@@ -12,14 +12,17 @@ function Header(){
 
 
     return(
-        <header className="bg-[#312c51] text-[#f0c38e] text-lg">
+        <header className="bg-[#0d0b1f] text-[#d7d7f9] text-lg">
             <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-4">
                 <div className="flex items-center justify-between">
-                
-                    <img src="/logo.png" alt="logo" className="w-[40px]"/>
+                    <div className="flex gap-2 items-center">
+                        <img src="/logo.png" alt="logo" className="w-[40px]"/>
+                        <h1 className="text-[1.7rem]">Sally.</h1>
+                    </div>
+
 
                     <div className="md:hidden">
-                        <button className="text-[#f0c38e]" onClick={toogleMenu}>
+                        <button className="text-[#d7d7f9]" onClick={toogleMenu}>
                             <svg 
                             fill="none"
                             stroke="CurrentColor"
@@ -38,8 +41,8 @@ function Header(){
                         <li><a href="#Hero">Home</a></li>
                         <li><a href="#About">About</a></li>
                         <li><a href="#Techstack">Techstack</a></li>
-                        <li><a href="#">Project</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#Project">Project</a></li>
+                        <li><a href="#Contact">Contact</a></li>
                     </ul>
 
                 </div>
@@ -50,8 +53,8 @@ function Header(){
                         <li className="py-2" ><a href="#Hero">Home</a></li>
                         <li className="py-2" ><a href="#About">About</a></li>
                         <li className="py-2"><a href="#Techstack">Techstack</a></li>
-                        <li className="py-2" ><a href="#">Project</a></li>
-                        <li className="py-2" ><a href="#">Contact</a></li>
+                        <li className="py-2" ><a href="#Project">Project</a></li>
+                        <li className="py-2" ><a href="#Contact">Contact</a></li>
                     </ul>
                 ): null}
             </div>
