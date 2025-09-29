@@ -11,7 +11,7 @@ function Hero(){
 
                     <div className="mt-10">
                         <a href="#Project">
-                            <Button className="text-[1.5rem]" buttonTitle="Explore my work" background="#8827c0"/>
+                            {/* <Button className="text-[1.5rem]" buttonTitle="Explore my work" background="#8827c0"/> */}
                         </a>
                     </div>
                     {/* <button className="bg-[#8827c0] p-3 my-20 text-[#fff] rounded-[5px] font-semibold text-[1.5rem]"><a href="#Project">Explore My work</a></button> */}
