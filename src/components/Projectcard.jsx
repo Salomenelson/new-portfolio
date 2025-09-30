@@ -1,9 +1,9 @@
 import { Button } from "./Button"
 
-export const Projectcard = ({image, title, description, textcard, textcard1, textcard2})=>{
+export const Projectcard = ({image, title, description, textcard, textcard1, textcard2, liveUrl, githubUrl})=>{
     return(
         <section>
-            <div className=" mb-5 w-[100%] h-fit pb-2 border-[#312c51] border-3 rounded-[10px] shadow-[0_8px_20px_rgba(0,0,0,0.15)]">
+            <div className=" mb-5 w-[100%] h-fit pb-5 border-[#312c51] border-3 rounded-[10px] shadow-[0_8px_20px_rgba(0,0,0,0.15)]">
                 <div>
                     <img className="w-[100%] h-[110px] rounded-t-[7px]" src={image} alt="my project" />
                 </div>
@@ -19,8 +19,8 @@ export const Projectcard = ({image, title, description, textcard, textcard1, tex
                     </div>
                     
                     <div className="flex gap-10 mt-7">
-                        <button className=" rounded-[10px]  text-[12px]">{<Button buttonTitle={"Live Demo"} background={"#8827c0"} icon={"/external-link.png"}/>}</button> 
-                        <button className="border-1 border-[#312c51] text-[#312c51] rounded-[10px] text-[12px]">{<Button buttonTitle={"Github"} icon={"/Github.png"}/>}</button> 
+                        <button className=" rounded-[10px]  text-[12px]">{<Button href={liveUrl} buttonTitle={"Live Demo"} background={"#8827c0"} icon={"/external-link.png"}/>}</button> 
+                        <button className="border-1 border-[#312c51] text-[#312c51] rounded-[10px] text-[12px]">{<Button href={githubUrl} buttonTitle={"Github"} icon={"/Github.png"}/>}</button> 
                     </div>
                 </div>
             </div>
