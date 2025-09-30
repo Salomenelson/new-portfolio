@@ -18,7 +18,7 @@ export const Projectcard = ({image, title, description, textcard, textcard1, tex
                         <p className="px-2 rounded-[20px] border-1 border-[#8827c0] text-[#8827c0] w-fit h-fit text-[10px] ">{textcard2}</p>
                     </div>
                     
-                    <div className="flex justify-between mt-7">
+                    <div className="flex gap-10 mt-7">
                         <button className=" rounded-[10px]  text-[12px]">{<Button buttonTitle={"Live Demo"} background={"#8827c0"} icon={"/external-link.png"}/>}</button> 
                         <button className="border-1 border-[#312c51] text-[#312c51] rounded-[10px] text-[12px]">{<Button buttonTitle={"Github"} icon={"/Github.png"}/>}</button> 
                     </div>
