@@ -1,4 +1,4 @@
-// import { Button } from "./button"
+import { Button } from "./Button"
 
 function Hero(){
     return(
@@ -9,11 +9,11 @@ function Hero(){
                     <h2 className="text-[3rem] py-4 font-bold">Salome <span className="text-[#d7d7f9]">Nelson.</span></h2>
                     <p className="text-[1.8rem]">Creative Software Engineer passionate about building bold, clean and beautiful websites.</p>
 
-                    {/* <div className="mt-10">
+                    <div className="mt-10">
                         <a href="#Project">
                             <Button className="text-[1.5rem]" buttonTitle="Explore my work" background="#8827c0"/>
                         </a>
-                    </div> */}
+                    </div>
                     {/* <button className="bg-[#8827c0] p-3 my-20 text-[#fff] rounded-[5px] font-semibold text-[1.5rem]"><a href="#Project">Explore My work</a></button> */}
                 </div>
             </div>
