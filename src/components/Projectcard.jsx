@@ -3,7 +3,7 @@ import { Button } from "./Button"
 export const Projectcard = ({image, title, description, textcard, textcard1, textcard2})=>{
     return(
         <section>
-            <div className=" mb-5 w-[100%] h-[370px] border-[#312c51] border-3 rounded-[10px] shadow-[0_8px_20px_rgba(0,0,0,0.15)]">
+            <div className=" mb-5 w-[100%] h-fit pb-2 border-[#312c51] border-3 rounded-[10px] shadow-[0_8px_20px_rgba(0,0,0,0.15)]">
                 <div>
                     <img className="w-[100%] h-[110px] rounded-t-[7px]" src={image} alt="my project" />
                 </div>
