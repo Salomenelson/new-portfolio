@@ -1,16 +1,31 @@
+import { TechstackCard } from "./TechstackCard"
+
 
 function Tech(){
     return(
-        <section id="Techstack" className="bg-[#0d0b1f] text-white">
-            <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-20">
-                <h2 className="text-[#d7d7f9] pt-2 text-[2.4rem] text-center">Techstack</h2>
-                <p className="text-[1.5rem] text-[#94a3b8] text-center font-semibold pb-3">Experience with</p>
-                <div className="flex flex-wrap shadow-[0_8px_20px_rgba(0,0,0,0.15)] items-center justify-center border-3 border-[#312c51]">
-                    <img src="/html.png" alt="html icon" className="w-[130px] p-4" />
-                    <img src="/CSS.png" alt="CSS icon" className="w-[110px] h-[110px] object-fit p-4"/>
+        <section id="Techstack" className="">
+            <div className="w-[90%] max-w-[1200px] my-0 mx-auto pb-10">
+                {/* <h2 className="text-[#4617b4] pt-2 text-[1.3rem] uppercase text-center font-semibold ">Skills </h2> */}
+                <div className="flex gap-2 justify-center items-center">
+                    <div className=" mt-2 w-3 h-[2px] bg-[#4617b4]"></div>
+                    <p className="uppercase tracking-[5px] text-sm pt-2 text-[.8rem] text-center text-[#4617b4]">Skills</p>
+                </div>
+
+                <h3 className="text-[1.7rem] font-semibold pb-1 text-center">My Tech Stack </h3>
+                <p className="text-[1.1rem] pb-5 text-center">Technologies and tools I use to bring ideas to life.</p>
+                <div className="flex justify-center flex-wrap gap-7 pt-4">
+                    <TechstackCard  icon="/html.png" text="HTML"/>
+                    <TechstackCard  icon="/CSS.png" text="CSS"/>
+                    <TechstackCard  icon="/javascript.png" text="JavaScript"/>
+                    <TechstackCard  icon="/React.png" text="React"/>
+                    <TechstackCard  icon="/Tailwind.png" text="Tailwind CSS"/>
+                    <TechstackCard  icon="/Github.png" text="Github"/>
+
+                    {/* <img src="/html.png" alt="html icon" className="w-[130px] p-4" /> */}
+                    {/* <img src="/CSS.png" alt="CSS icon" className="w-[110px] h-[110px] object-fit p-4"/>
                     <img src="/javascript.png" alt="javascript icon" className="w-[130px] p-4"/>
                     <img src="/React.png" alt="React icon" className="w-[130px] p-4"/>
-                    <img src="/Tailwind.png" alt="Tailwind icon" className="w-[130px] p-4"/>
+                    <img src="/Tailwind.png" alt="Tailwind icon" className="w-[130px] p-4"/> */}
                 </div>
                 
             </div>

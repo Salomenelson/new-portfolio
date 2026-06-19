@@ -1,25 +1,36 @@
 import { Aboutcard } from "./Aboutcard"
+import { Button } from "./Button"
 
 function About(){
     return(
-        <section id="About" className="bg-[#0d0b1f] w-full text-white">
-            <div className="w-[80%] max-w-[1000px] my-0 mx-auto py-20">
+        <section id="About" className=" w-full py-10">
+            <div className="w-[90%] max-w-[1200px] my-0 mx-auto py-8">
+
+                <div className="flex gap-2 pb-2 justify-center items-center">
+                    <div className=" mt-2 w-3 h-[2px] bg-[#4617b4]"></div>
+                    <p className="uppercase tracking-[5px] text-sm pt-2 text-[.8rem] text-center text-[#4617b4]">About Me</p>
+                </div>
+
+            {/* <h2 className="text-[1.3rem] text-[#4617b4] py-2 text-center uppercase font-semibold">About Me</h2> */}
 
                 {/* flex container */}
-                <div className="md:flex justify-between items-center py-3">
+                <div className="md:flex md:justify-between md:items-start py-3">
                     {/* left side */}
-                    <div className="md:w-[50%]">
-                        <img src="/portfolio-img.jpg" alt="portfolio image" className="max-w-[100%] shadow-[0_8px_20px_rgba(0,0,0,0.15)] rounded-[7px]"/>
-                        <h2 className="text-[2.4rem] text-[#d7d7f9] p-2">About Me</h2>
-                        <p className="text-[1.5rem]  md:text-justify">I've always been fascinated by how websites are built. That curiosity eventually pushed me into web development and I discovered how much I enjoy building websites that are functional, responsive and visually appealing. Right now, I focus mainly on frontend development, creating clean, responsive designs and in the future I plan to expand my skills into UI/UX and backend development so I can grow into a fullstack developer. </p>
+                    <div className="md:w-[45%]" >
+                        <p className="text-[1rem] leading-relaxed tracking-wide">I'm a Frontend Developer passionate about creating responsive, user-friendly and visually appealing web experiences. I enjoy turning ideas and designs into functional applications using modern web technologies. </p>
+                        <p className="text-[1rem] py-2">I am currently seeking internship opportunities where I can contribute, grow my skills and gain hands-on industry experiences while working with oher developers on real-world projects.</p>
+                        
+                        <div className="my-7">
+                            <Button href="/Salome_Nelson_Cv.pdf" download buttonTitle="Download Resume" background="#4617b4" icon="/download-white.png" color="#fff"/>
+                        </div>
                     </div>
                     {/* right side */}
-                    <div className="md:w-[40%]"> 
-                        <Aboutcard icon="/location.png" title="Location" text="Lagos, Nigeria"/>
-                        <Aboutcard icon="/computer.png" title="Current Focus" text="Frontend development"/>
-                        <Aboutcard icon="/layers.png" title="Goal" text="Fullstack development"/>
-                        <Aboutcard icon="/heart.png" title="Passion" text="Building creative, beautiful websites"/>
-                        {/* <Aboutcard icon="/settings.png" title="Skills" text="HTML, CSS, JavaScript, React, Tailwindcss"/> */}
+                    <div className="w-full md:w-[50%] grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-x-4 md:mt-6 "> 
+                        <Aboutcard icon="/location1.png" title="Lagos, Nigeria" text="Based in Lagos"/>
+                        <Aboutcard icon="/code-block.png" title="Frontend Development" text="My main focus"/>
+                        <Aboutcard icon="/suitcase.png" title="Open to Opportunities" text="Available for internship positions"/>
+                        <Aboutcard icon="/responsive-layout.png" title="Responsive Design" text="Mobile-first and adaptive layouts"/>
+
                     </div>
                 </div>
             </div>
