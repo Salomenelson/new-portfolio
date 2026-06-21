@@ -20,6 +20,9 @@ function Tech(){
                     <TechstackCard  icon="/React.png" text="React"/>
                     <TechstackCard  icon="/Tailwind.png" text="Tailwind CSS"/>
                     <TechstackCard  icon="/Github.png" text="Github"/>
+                    <TechstackCard  icon="/vscode.png" text="Vscode"/>
+                    <TechstackCard  icon="/git.png" text="Git"/>
+                    <TechstackCard  icon="/figma.png" text="Figma"/>
 
                     {/* <img src="/html.png" alt="html icon" className="w-[130px] p-4" /> */}
                     {/* <img src="/CSS.png" alt="CSS icon" className="w-[110px] h-[110px] object-fit p-4"/>
