@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom"
 import { useState } from "react"
 import { Projectcard } from "./Projectcard"
+import Mealmate from "./Casestudies/Mealmate"
 
+
+// Data array used to dynamically render project cards in the UI
 function Project(){
 
     const frontendProjects = [
@@ -44,29 +48,47 @@ function Project(){
     const uiuxProjects = [
         {
             image:"/Meal Planner.png",
-            title:"MealMate",
+            title:"Meal Planner",
             description:"MealMate is a mobile meal-planning application designed to simplify daily food decisions. ",
             textcard1:"Figma",
             textcard2:"Google forms",
-            projectUrl:"#",
-            caseStudyUrl:"#"
+            projectUrl:"https://www.figma.com/proto/JngWRRKE6IufiHrKObPA5j/Meal-Planner?node-id=1-2&p=f&t=jZpGJRmYUdAeFEyu-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=163%3A2&show-proto-sidebar=1",
+            caseStudyUrl:"/Casestudies/Mealmate"
+        },
+
+         {
+            image:"/Whatsapp vn feature.png",
+            title:"WhatsApp VN Editing Feature",
+            description:"Introducing an editing feature that allows users to edit and trim voice notes before sending them. ",
+            textcard1:"Figma",
+            projectUrl:"https://www.figma.com/proto/FYYhCZbezvpgJ8reVbLJ7O/Untitled?node-id=40-103&p=f&t=FG25UqhD8JbmI8m7-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+            caseStudyUrl:"/Casestudies/WhatsApp"
+        },
+
+         {
+            image:"/Jiji Redesign.png",
+            title:"Jiji Web App Redesign",
+            description:"This focuses on redesigning key parts of the Jiji web application. ",
+            textcard1:"Figma",
+            projectUrl:"https://www.figma.com/design/u0Bj47jfm4vtDeVxOAIiRs/Untitled?node-id=0-1&p=f&t=H96pOI2xa2qs8Q18-0",
+            caseStudyUrl:"/Casestudies/Jiji"
         }
     ]
 
+    // To set the active project tab to always be on frontend when you load the portfolio
     const [activeTab, setActiveTab] = useState("frontend");
 
     return(
         <section id="Project">
-            <div className="w-[90%] max-w-[1200px] my-0 mx-auto py-20">
-                {/* <h2 className="text-[#4617b4] pt-2 text-[1.3rem] uppercase text-center font-semibold"> Projects</h2> */}
+            <div className="w-[90%] max-w-300 my-0 mx-auto py-20">
                 <div className="flex gap-2 justify-center items-center">
-                    <div className=" mt-2 w-3 h-[2px] bg-[#4617b4]"></div>
+                    <div className=" mt-2 w-3 h-0.5 bg-[#4617b4]"></div>
                     <p className="uppercase tracking-[5px] text-sm pt-2 text-[.8rem] text-center text-[#4617b4]">Projects</p>
                 </div>
                 
                 <h3 className="text-[1.7rem] font-semibold pb-5 text-center">What I've Built</h3>
                
-               {/* category button */}
+               {/* category button to switch to the project when clicked*/}
                 <div className="flex gap-4 justify-center mb-7">
                     <button onClick={() => setActiveTab("frontend")} className={
                         activeTab === "frontend" ? "py-2 px-3 bg-[#4617b4] text-white rounded-full outline-0" : "py-2 px-3 rounded-full border border-[#4617b4] text-[#4617b4] text-[.7rem] font-semibold outline-0"}>Front-end
@@ -78,8 +100,9 @@ function Project(){
 
                 </div>
 
-                {/* div for my projects */}
+                {/* div for my projects*/}
                 <div className="grid grid-col-1 place-items-center sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {/* Ensuring the frontend cards only show when the frontend tab is active */}
                     {activeTab === "frontend" && frontendProjects.map((project) => (
                         <Projectcard 
                         image={project.image} 
@@ -97,6 +120,7 @@ function Project(){
                 </div>
 
                 <div className="grid grid-col-1 place-items-center sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {/* Ensuring the UI/UX cards only show when the UI/UX tab is active */}
                     {activeTab === "UI/UX" && uiuxProjects.map((project) => (
                         <Projectcard 
                         image={project.image} 

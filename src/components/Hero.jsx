@@ -1,3 +1,4 @@
+// Hero section
 import { Button } from "./Button"
 
 function Hero(){
@@ -18,7 +19,6 @@ function Hero(){
                             <Button className="text-[1.5rem]" buttonTitle="Contact Me" border="1px solid #4617b4" icon="/chat.png"/>
                         </a>
                     </div>
-                    {/* <button className="bg-[#8827c0] p-3 my-20 text-[#fff] rounded-[5px] font-semibold text-[1.5rem]"><a href="#Project">Explore My work</a></button> */}
                 </div>
 
                 <div className="md:w-[40%] md:my-0 my-10  relative overflow-hidden border-2 border-violet-500 shadow-[0_0_60px_rgba(139,92,246,0.4)]" style={{borderRadius:"100px 40px 100px 40px"}}>

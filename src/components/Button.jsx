@@ -1,5 +1,5 @@
 
-// A reusable component
+// Button reusable component
 export const Button = ({buttonTitle, background, color, border, icon, href, target, download}) =>{
     //  border:border || "none" is saying "if border isn't passed, default = none"
     return(

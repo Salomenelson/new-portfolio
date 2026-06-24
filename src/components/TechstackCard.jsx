@@ -1,4 +1,4 @@
-
+// Resuable Techstack component
 export const TechstackCard = ({icon, text, background})=>{
     return(
         <div className="hover:transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl bg-white text-black shadow-md p-6 rounded-[7px] flex flex-col items-center" style={{backgroundColor:background}}>
