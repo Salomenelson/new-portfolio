@@ -63,7 +63,7 @@ function Header(){
                         <li onClick={closeMenu} className="py-2" ><a href="#About" className="hover:text-violet-500 active:text-violet-300">About</a></li>
                         <li onClick={closeMenu} className="py-2"><a href="#Techstack" className="hover:text-violet-500 active:text-violet-300">Techstack</a></li>
                         <li onClick={closeMenu}  className="py-2" ><a href="#Project" className="hover:text-violet-500 active:text-violet-300">Project</a></li>
-                        <li className="py-2" ><a href="#Contact" className="hover:text-violet-500 active:text-violet-300">Contact</a></li>
+                        <li onClick={closeMenu} className="py-2" ><a href="#Contact" className="hover:text-violet-500 active:text-violet-300">Contact</a></li>
                         <Button href="/Salome_Nelson_Cv.pdf" target="_blank" buttonTitle="Resume" border="1px solid #8b5cf6" icon="/download-colored.png"/>
                     </ul>
                 ): null}
