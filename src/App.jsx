@@ -8,9 +8,9 @@ import Tech from './components/Tech.jsx'
 import Project from './components/Project.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
-import Mealmate from './components/Casestudies/Mealmate.jsx'
-import WhatsApp from './components/Casestudies/WhatsApp.jsx';
-import Jiji from './components/Casestudies/Jiji.jsx';
+import Mealmate from './components/Mealmate.jsx'
+import WhatsApp from './components/WhatsApp.jsx';
+import Jiji from './components/Jiji.jsx';
 
 
 
@@ -43,9 +43,9 @@ function App() {
           <Footer/>
          </>
         } />
-      <Route path='/Casestudies/Mealmate' element={<Mealmate />}/>
-      <Route path='/Casestudies/WhatsApp' element={<WhatsApp />}/>
-      <Route path='/Casestudies/Jiji' element={<Jiji />}/>
+      <Route path='/Mealmate' element={<Mealmate />}/>
+      <Route path='/WhatsApp' element={<WhatsApp />}/>
+      <Route path='/Jiji' element={<Jiji />}/>
     </Routes>
   )
 }
