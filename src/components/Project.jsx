@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import { useState } from "react"
 import { Projectcard } from "./Projectcard"
 import Mealmate from "./Mealmate"
+import WhatsApp from "./WhatsApp"
+import Jiji from "./Jiji"
 
 
 // Data array used to dynamically render project cards in the UI
