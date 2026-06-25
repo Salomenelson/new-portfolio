@@ -9,11 +9,11 @@ function Hero(){
                     <p className="uppercase tracking-[6px] text-[1.5rem] text-[#8b5cf6]">Hello, i'm</p>
                     <h2 className="text-[3rem] pt-4 font-bold">Salome Nelson</h2>
                     <p className="text-[1.9rem] text-[#8b5cf6] pb-4">Frontend Developer</p>
-                    <p className="text-[1.3rem]">Creative Software Engineer passionate about building bold, clean and beautiful websites.</p>
+                    <p className="text-[1.3rem]">Creative Frontend developer passionate about building bold, clean and beautiful websites.</p>
 
                     <div className="mt-10 flex justify-center md:justify-start gap-3">
                         <a href="#Project">
-                            <Button className="text-[1.5rem]" buttonTitle="Explore my work" background="#4617b4" icon="/arrow-right.png"/>
+                            <Button className="text-[1.5rem]" buttonTitle="Explore work" background="#4617b4" icon="/arrow-right.png"/>
                         </a>
                         <a href="#Contact">
                             <Button className="text-[1.5rem]" buttonTitle="Contact Me" border="1px solid #4617b4" icon="/chat.png"/>

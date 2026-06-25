@@ -67,7 +67,7 @@ function Mealmate(){
 
             <div>
                 <h4 className="pt-7 pb-2 text-[1.3rem] text-green-700">Problem Statement</h4>
-                <p>Many individuals struggle regularly with deciding what to eat. According to survey responses, most participants reported that they *often* or *always* experience difficulty choosing meals. As a result, they frequently settle for repetitive meals, snacks, or quick options rather than meals they genuinely want. This repeated decision-making creates unnecessary stress, especially for busy individuals.</p>
+                <p>Many individuals struggle regularly with deciding what to eat. According to survey responses, most participants reported that they often or always experience difficulty choosing meals. As a result, they frequently settle for repetitive meals, snacks, or quick options rather than meals they genuinely want. This repeated decision-making creates unnecessary stress, especially for busy individuals.</p>
             </div>
 
             <div>
@@ -96,7 +96,7 @@ function Mealmate(){
 
             <div>
                 <h4 className="pt-7 pb-6 text-[1.3rem] text-green-700">User Flow</h4>
-                <img src="/user-flow.png" alt="User flow" />
+                <img src="/mealmate-userflow.png" alt="User flow" />
                 <p className='pt-7'>The user flow was designed to keep navigation simple and intuitive, allowing users to move seamlessly from selecting preferences to viewing daily meal suggestions, saving favorites, and planning weekly meals.</p>
             </div>
 
@@ -108,13 +108,13 @@ function Mealmate(){
 
              <div>
                 <h4 className="pt-7 pb-6 text-[1.3rem] text-green-700">Final UI</h4>
-                <img src="/Mealmate-final-ui.jpg" alt="Final UI" />
+                <img src="/mealmate-final-ui.png" alt="Final UI" />
                 <p className='pt-3'>The final interface was designed with clarity and simplicity as the main focus. A clean layout, strong visual hierarchy, and large meal imagery help users quickly understand their options. The bottom navigation ensures easy access to Home, Planner, and Favorites, while swipe interactions make browsing meal suggestions intuitive and engaging.</p>
             </div>
 
             <div>
                 <h4 className="pt-7 pb-6 text-[1.3rem] text-green-700">Reflection</h4>
-                <p className='pb-3'>One of the most challenging aspects of this project was developing the wireframes. Initially, understanding how to properly separate structure from visual design. Conducting the survey was also a new experience, as it was my first time creating and analyzing responses using Google Forms.</p>
+                <p className='pb-3'>One of the most challenging aspects of this project was developing the wireframes. Initially, understanding how to properly separate structure from visual design wasn't easy. Conducting the survey was also a new experience, as it was my first time creating and analyzing responses using Google Forms.</p>
                 <p className='pb-3'>Through this project, I gained a stronger understanding of the UX process from research and user insights to wireframing and final interface design. I learned how to design with a clear purpose and structure user interactions more thoughtfully.</p>
                 <p>If the project were to be expanded further, I would introduce a feature allowing users to input the ingredients they already have at home. The app would then generate meal suggestions based solely on those available ingredients, making it even more practical and convenient.</p>
             </div>

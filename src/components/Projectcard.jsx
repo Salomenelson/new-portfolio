@@ -33,8 +33,8 @@ export const Projectcard = ({image, title, description, textcard, textcard1, tex
                             </>
                         ) : (
                             <>
-                                <button className=" rounded-[10px]  text-[12px]">{<Button href={projectUrl} target="_blank" buttonTitle={"View Project"} background={"#4617b4"} color={"#fff"}/>}</button> 
-                                <button className="border border-[#8b5cf6] rounded-[7px] text-[12px]" >{<Button href={caseStudyUrl} target="_blank" buttonTitle={"Case Study"} color={"#4617b4"}/>}</button>
+                                <button className=" rounded-[7px] text-[12px]" >{<Button href={caseStudyUrl} target="_blank" buttonTitle={"Case Study"} background={"#4617b4"} color={"#fff"}/>}</button>
+                                <button className=" border border-[#8b5cf6] rounded-[10px]  text-[12px]">{<Button href={projectUrl} target="_blank" buttonTitle={"View Project"} color={"#4617b4"}/>}</button> 
                             </>
                         )
                         }
