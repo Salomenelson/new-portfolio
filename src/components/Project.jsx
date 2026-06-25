@@ -55,7 +55,7 @@ function Project(){
             textcard1:"Figma",
             textcard2:"Google forms",
             caseStudyUrl:"/Mealmate",
-            projectUrl:"https://www.figma.com/proto/JngWRRKE6IufiHrKObPA5j/Meal-Planner?node-id=1-2&p=f&t=SPtAfHf29iPdwo4r-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=163%3A2"
+            projectUrl:"https://www.figma.com/proto/JngWRRKE6IufiHrKObPA5j/Meal-Planner?node-id=163-27&p=f&t=SPtAfHf29iPdwo4r-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=163%3A2&show-proto-sidebar=1"
         },
 
          {
@@ -64,7 +64,7 @@ function Project(){
             description:"Introducing an editing feature that allows users to edit and trim voice notes before sending them. ",
             textcard1:"Figma",
             caseStudyUrl:"/WhatsApp",
-            projectUrl:"https://www.figma.com/proto/FYYhCZbezvpgJ8reVbLJ7O/Whatsapp-Redesign?node-id=10-6&p=f&t=uiLxkYksznb6Rcmt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+            projectUrl:"https://www.figma.com/proto/FYYhCZbezvpgJ8reVbLJ7O/Whatsapp-Redesign?node-id=10-6&p=f&t=uiLxkYksznb6Rcmt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
         },
 
          {
@@ -73,7 +73,7 @@ function Project(){
             description:"This focuses on redesigning key parts of the Jiji web application. ",
             textcard1:"Figma",
             caseStudyUrl:"/Jiji",
-            projectUrl:"https://www.figma.com/design/u0Bj47jfm4vtDeVxOAIiRs/Untitled?node-id=0-1&p=f&t=H96pOI2xa2qs8Q18-0"
+            projectUrl:"https://www.figma.com/design/u0Bj47jfm4vtDeVxOAIiRs/Ugntitled?node-id=0-1&p=f&t=H96pOI2xa2qs8Q18-0"
         }
     ]
 
