@@ -73,7 +73,7 @@ function Project(){
             description:"This focuses on redesigning key parts of the Jiji web application. ",
             textcard1:"Figma",
             caseStudyUrl:"/Jiji",
-            projectUrl:"https://www.figma.com/design/u0Bj47jfm4vtDeVxOAIiRs/Ugntitled?node-id=0-1&p=f&t=H96pOI2xa2qs8Q18-0"
+            projectUrl:"https://www.figma.com/proto/u0Bj47jfm4vtDeVxOAIiRs/Jiji-Redesign?node-id=157-2&p=f&t=cPFxKLPmUi0hGOKf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=157%3A2&show-proto-sidebar=1"
         }
     ]
 
